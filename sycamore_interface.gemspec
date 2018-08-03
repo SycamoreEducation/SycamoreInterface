@@ -12,7 +12,4 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["vendor/assets/stylesheets/*"]
-
-  s.add_dependency "rails", "~> 5.2.0"
-  s.add_dependency "bootstrap", "~> 4.0.0"
 end
