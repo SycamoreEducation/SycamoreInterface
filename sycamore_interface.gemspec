@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.summary     = "Base CSS library for Rails applications."
   s.license     = "MIT"
 
-  s.files = Dir["vendor/assets/stylesheets/*"]
+  s.files = `git ls-files -z`.split("\x0")
 end
