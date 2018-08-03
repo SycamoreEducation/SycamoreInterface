@@ -1,0 +1,17 @@
+// Applies secondary color to form highlights, versus primary default
+.form-control:focus
+  border-color: $secondary
+  box-shadow: 0 0 0 $input-btn-focus-width rgba($secondary, .25)
+
+// Applies a non-standard styles to the .navbar element.
+.navbar
+  border-bottom: 2px solid $border-color
+  height: 55px
+
+// Fixes a Flexbox support issue with IE 10/11
+.modal-footer
+  justify-content: flex-start !important
+
+// Applies non-standard light font-weight to all button elements
+.btn
+  font-weight: 300
